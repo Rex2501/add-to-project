@@ -22,3 +22,9 @@ outputs:
 runs:
   using: 'node16'
   main: 'dist/index.js'
+    steps:
+      - uses: actions/setup-java@v3
+        with:
+          distribution: '<distribution>'
+          java-version: |
+    
